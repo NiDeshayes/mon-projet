@@ -1,0 +1,38 @@
+
+
+
+
+.fiche-artisan-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #cd2c2e;
+  border-radius: 5px;
+  background-color: #f1f8fc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px; 
+}
+
+
+
+
+.fiche-artisan-container .blase {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px ;
+}
+
+.fiche-artisan-container .blase input[type="text"] {
+  width: 48%; 
+}
+
+
+.fiche-artisan-container .Message textarea {
+  width: 100%; 
+  margin-bottom: 20px; 
+}
+
+
+.fiche-artisan-container .bouton {
+  text-align: center; 
+}

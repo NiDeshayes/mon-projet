@@ -1,0 +1,34 @@
+.footer {
+   
+    width: 100%;
+    background-color: #00497c;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    
+    
+    
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .legal-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  
+  .legal-links a:hover {
+    color: #ffd700;
+  }
+  
+  .contact-info p {
+    margin: 0;
+  }
+  

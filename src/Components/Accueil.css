@@ -1,0 +1,55 @@
+
+
+.container {
+    padding: 20px;
+  }
+  
+  
+
+.how-to-find {
+    margin: 0 auto;
+    max-width: 600px; 
+  }
+  
+  
+  .top-artisans {
+    margin-top: 30px;
+  }
+  
+  .rating {
+    margin-bottom: 10px;
+  }
+  
+  .rating-text {
+    margin-left: 5px;
+  }
+  
+  .artisan {
+    margin-bottom: 20px;
+    
+  }
+  
+  .center-title {
+    text-align: center;
+  }
+  
+  .container-2 {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .card {
+    min-height: 300px; 
+  }
+  
+  .btn-primary {
+    display: block;
+    margin: 0 auto;
+    width: fit-content; 
+    
+  }
+  .card-body{
+
+    border: 1px solid #82b864;
+    background-color: #f1f8fc;
+  }

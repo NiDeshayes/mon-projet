@@ -1,24 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Header from './Components/Header';
+import Footer from './Components/Footer';
+import Accueil from './Components/Accueil';
+import FicheArtisan from './Components/FicheArtisan';
+import NotFound from './Components/NotFound';
+import AlimentationPage from './Components/AlimentationPage';
+import FabricationPage from './Components/FabricationPage';
+import ServicesPage from './Components/ServicesPage';
+import BatimentPage from './Components/BatimentPage';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Accueil />} />
+          <Route path="/fiche-artisan" element={<FicheArtisan />} />
+          <Route path="/alimentation" element={<AlimentationPage />} />
+          <Route path="/fabrication" element={<FabricationPage />} />
+          <Route path="/services" element={<ServicesPage />} />
+          <Route path="/batiment" element={<BatimentPage />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 

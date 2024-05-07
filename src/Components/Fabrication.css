@@ -1,0 +1,38 @@
+
+
+.fabrication-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .artisan-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .artisan-card {
+    border: 1px solid #82b864;
+    border-radius: 5px;
+    padding: 20px;  
+    background-color: #f1f8fc;
+  }
+  
+  .artisan-card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .rating {
+    color: #cd2c2e;
+  }
+  
+  p {
+    margin-bottom: 10px;
+  }
+  
