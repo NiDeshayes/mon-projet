@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Services.css'; // Assurez-vous de créer ce fichier CSS si nécessaire
+import './Assets/Styles/services.css'; 
 import artisansData from '../Data'; 
 
 const ArtisanCard = ({ artisan }) => {

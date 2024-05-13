@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './BatimentPage.css';
+import './Assets/Styles/batimentPage.css';
 import artisansData from '../Data';
 
 const ArtisanCard = ({ artisan }) => {

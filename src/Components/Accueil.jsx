@@ -3,7 +3,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import data from "../Data";
-import "./Accueil.css"; 
+import "./Assets/Styles/accueil.css"; 
 
 const Accueil = () => {
   const renderRatingStars = (rating) => {

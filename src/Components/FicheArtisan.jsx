@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
-import './FicheArtisan.css';
+import './Assets/Styles/ficheartisan.css';
 import artisansData from '../Data';
 
 const FicheArtisanAvecListe = () => {
